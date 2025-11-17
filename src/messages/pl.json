@@ -1,0 +1,163 @@
+{
+  "pages": {
+    "profile": {
+      "header": "Ustawienia profilu",
+      "subheader": "Zarządzaj ustawieniami i preferencjami swojego konta.",
+      "info": {
+        "header": "Informacje o koncie",
+        "email_address": "Adres e-mail",
+        "member_since": "Członek od"
+      },
+      "email_accounts": {
+        "header": "Połączone konta e-mail"
+      },
+      "subscription": {
+        "header": "Subskrypcja"
+      }
+    },
+    "dashboard": {
+      "title": "Panel",
+      "statistics": {
+        "header": "Statystyki użytkowania",
+        "subheader": "Przegląd aktywności i użytkowania Twojego konta.",
+        "total_flows": "Wszystkie przepływy",
+        "active_flows": "Aktywne przepływy",
+        "emails_sent": "Wysłane e-maile"
+      },
+      "flows": {
+        "header": "Przepływy",
+        "subheader": "Zarządzaj swoimi przepływami i ich ustawieniami.",
+        "add_flow": "Dodaj nowy przepływ",
+        "no_flows": "Nie masz jeszcze żadnych przepływów. Utwórz swój pierwszy przepływ, aby rozpocząć.",
+        "error": "Błąd ładowania przepływów",
+        "item": {
+          "active": "Aktywny",
+          "inactive": "Nieaktywny",
+          "email_template": "Szablon e-mail:",
+          "pkd_codes": "Kody PKD:",
+          "edit_flow": "Edytuj przepływ"
+        }
+      }
+    },
+    "editCreateFlow": {
+      "edit": {
+        "header": "Edytuj przepływ",
+        "subheader": "Zaktualizuj ustawienia i szablon przepływu."
+      },
+      "create": {
+        "header": "Utwórz nowy przepływ",
+        "subheader": "Utwórz nowy przepływ e-mail z konfigurowalnymi szablonami i zmiennymi."
+      },
+      "form": {
+        "loading": "Ładowanie...",
+        "account_email": {
+          "label": "E-mail konta",
+          "required": "E-mail konta jest wymagany"
+        },
+        "name": {
+          "label": "Nazwa",
+          "required": "Nazwa jest wymagana",
+          "too_long": "Nazwa jest za długa"
+        },
+        "email_template": {
+          "label": "Szablon e-mail",
+          "required": "Szablon e-mail jest wymagany",
+          "unknown_variables": "Szablon e-mail zawiera nieznane zmienne",
+          "available_variables": "Dostępne zmienne",
+          "press_tab_or_enter_to_insert": "Naciśnij Tab lub Enter, aby wstawić",
+          "hint": "Zacznij pisać @, aby zobaczyć dostępne zmienne. Użyj strzałek do nawigacji, Tab/Enter do wstawienia."
+        },
+        "pkd_codes": {
+          "label": "Kody PKD",
+          "placeholder": "Wybierz numery PKD",
+          "search_placeholder": "Szukaj numerów PKD",
+          "hint": "Wybierz numery PKD, które odpowiadają działalności biznesowej Twoich docelowych firm.",
+          "loading": "Ładowanie...",
+          "required": "Wymagany jest co najmniej jeden numer PKD"
+        },
+        "is_active": {
+          "label": "Jest aktywny",
+          "required": "Status aktywności jest wymagany"
+        },
+        "submit": "Zapisz",
+        "pending": "Zapisywanie...",
+        "cancel": "Anuluj"
+      },
+      "errors": {
+        "create_flow": "Nie udało się utworzyć przepływu",
+        "update_flow": "Nie udało się zaktualizować przepływu"
+      }
+    },
+    "login": {
+      "or": "Lub",
+      "fields": {
+        "password": {
+          "label": "Hasło",
+          "validation": {
+            "minLength": "Musi mieć więcej niż {minLength} znaków",
+            "uppercase": "Musi zawierać co najmniej jedną wielką literę",
+            "lowercase": "Musi zawierać co najmniej jedną małą literę",
+            "number": "Musi zawierać co najmniej jedną cyfrę",
+            "special_character": "Musi zawierać co najmniej jeden znak specjalny"
+          }
+        },
+        "email": {
+          "label": "E-mail",
+          "validation": {
+            "email": "Nieprawidłowy adres e-mail"
+          }
+        }
+      },
+      "buttons": {
+        "signin": "Zaloguj się",
+        "signup": "Zarejestruj się"
+      },
+      "messages": {
+        "signup": {
+          "success": "Sprawdź swoją skrzynkę e-mail w celu weryfikacji"
+        },
+        "errors": {
+          "general": "Coś poszło nie tak. Spróbuj ponownie później.",
+          "invalid_credentials": "Nieprawidłowe dane logowania",
+          "email_not_verified": "E-mail nie został zweryfikowany. Sprawdź swoją skrzynkę e-mail w celu weryfikacji."
+        }
+      }
+    }
+  },
+  "components": {
+    "header": {
+      "menu": {
+        "profile": "Profil",
+        "logout": "Wyloguj się"
+      }
+    },
+    "accountEmails": {
+      "active": "Aktywny",
+      "inactive": "Nieaktywny",
+      "loading": "Ładowanie...",
+      "connecting": "Łączenie...",
+      "connect_email": "Połącz nowy e-mail",
+      "reconnecting": "Ponowne łączenie...",
+      "reconnect": "Połącz ponownie",
+      "failed_to_load": "Nie udało się załadować kont e-mail",
+      "failed_to_connect": "Nie udało się połączyć konta",
+      "failed_to_remove": "Nie udało się usunąć konta",
+      "failed_to_toggle": "Nie udało się przełączyć konta",
+      "failed_to_reconnect": "Nie udało się ponownie połączyć konta",
+      "permission_denied": "Musisz udzielić zgody na wysyłanie e-maili w Twoim imieniu. Spróbuj ponownie i zaznacz wszystkie wymagane uprawnienia.",
+      "no_email_accounts_connected": "Nie połączono jeszcze żadnych kont e-mail",
+      "confirm_delete": "Czy na pewno chcesz usunąć {email}? Tej akcji nie można cofnąć.",
+      "confirm_toggle_inactive": "Czy na pewno chcesz dezaktywować {email}? Wszystkie przepływy używające tego e-maila zostaną dezaktywowane.",
+      "tip": "💡 Możesz połączyć wiele kont Gmail do wysyłania e-maili. Każde konto może być używane w różnych przepływach e-mail.",
+      "select": {
+        "hint": "Wybierz konto e-mail, z którego chcesz wysyłać.",
+        "label": "Wybierz konto e-mail",
+        "placeholder": "Wybierz konto e-mail"
+      }
+    }
+  },
+  "errors": {
+    "general": "Coś poszło nie tak. Spróbuj ponownie później.",
+    "authentication_required": "Wymagana autoryzacja"
+  }
+}

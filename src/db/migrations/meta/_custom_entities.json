@@ -1,0 +1,25 @@
+{
+  "functions": {
+    "handle_new_user": "d40d2c4fade60a8d010506a1974195ba50cf763c23408907cc55c124392fe761",
+    "deactivate_flows_on_account_email_deactivation": "d9a04bc9d6b3d2f44aa1c204214ae68502312e1dd93f05fc6705062c5afe92cb",
+    "update_updated_at": "29cd27a75860379bc6f1f5beade92285f03d0f54b437504087bc2bbca444f6f8",
+    "try_register_first_contact": "2c9b76a6354ec41499d608d216e829b60713ab8741e1ec19fc565bc08689de47",
+    "bump_company_unique_senders_count": "1a3bce8843bf8d827b2f627679fa9a7bc3d51f0dac054f58b9bc0d26fa6d50a9"
+  },
+  "triggers": {
+    "on_accounts_updated": "96c6f46db79cd77da550e930089aefbe5ecc44358896e6a193af0c96de3584b2",
+    "on_auth_user_created": "7ea908c1e1e119cc9abf8045a9d74053f4672a3188dfc65f48d02c442552243e",
+    "on_account_email_deactivated": "fb853a5d7e3ff0cc18169fcae7d50f64f76b4c696f6c17420d47bd64723631e8",
+    "on_account_emails_updated": "a81563c78407c0ba3acdf4c48c02d91f499898bfa3bc47c78a59c49b4283bdbc",
+    "on_company_pkd_numbers_updated": "f54e6f7159834c970e86b927ed4c06440788952b6f8ab19099e1b2b25297497a",
+    "on_pkd_numbers_updated": "7d2db1e2c0581e3473da645d1fead71dc92de4ad71d2d7049dabc48f051aacda",
+    "on_companies_updated": "35fd15c7bfad1a454e446f449d171f44be7cb343a085098a41a8525665ada89c",
+    "on_email_logs_inserted_register_first": "3426fa1a1a352f44128ee9058ec7eedfce4eab78beee300dc44a2e4bac1f8134",
+    "on_email_logs_updated": "ee80ebe09e84012a0fc36c8fba9b296c09b1dfe123db38964db1b4e744f07517",
+    "on_flows_updated": "461ce84fc9fe2671162e8378bb1153b1c3979118b0f696cf0d93bc0d9e111a41",
+    "on_flow_pkd_numbers_updated": "a2b97e6a54f5a640829f25db1dc90d765663b1ec5983df7f0f62aaadf6d222ff",
+    "on_suppression_list_updated": "f8961e080a3d85277c0fb03a8a29b3d45d77088dac4ae6c7ce0e310dc8e6a3bf",
+    "on_email_first_contacts_inserted": "9efd6ea068c422f1512e0e8a1159159daf53050ecf1a1824559769e69564d7db",
+    "on_email_first_contacts_updated": "545d617b7e429b3d79b0d1ba93021df5ca5a83e3daed9bbd9cce96c115061a5e"
+  }
+}

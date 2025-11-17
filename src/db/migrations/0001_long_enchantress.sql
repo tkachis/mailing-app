@@ -1,0 +1,1 @@
+ALTER TABLE "email_logs" ALTER COLUMN "account_email_id" DROP NOT NULL;

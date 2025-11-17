@@ -1,0 +1,163 @@
+{
+  "pages": {
+    "profile": {
+      "header": "Profile Settings",
+      "subheader": "Manage your account settings and preferences.",
+      "info": {
+        "header": "Account Information",
+        "email_address": "Email Address",
+        "member_since": "Member Since"
+      },
+      "email_accounts": {
+        "header": "Connected Email Accounts"
+      },
+      "subscription": {
+        "header": "Subscription"
+      }
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "statistics": {
+        "header": "Usage Statistics",
+        "subheader": "Overview of your account activity and usage.",
+        "total_flows": "Total Flows",
+        "active_flows": "Active Flows",
+        "emails_sent": "Emails Sent"
+      },
+      "flows": {
+        "header": "Flows",
+        "subheader": "Manage your flows and their settings.",
+        "add_flow": "Add New Flow",
+        "no_flows": "You don't have any flows yet. Create your first flow to get started.",
+        "error": "Error loading flows",
+        "item": {
+          "active": "Active",
+          "inactive": "Inactive",
+          "email_template": "Email Template:",
+          "pkd_codes": "PKD Codes:",
+          "edit_flow": "Edit Flow"
+        }
+      }
+    },
+    "editCreateFlow": {
+      "edit": {
+        "header": "Edit Flow",
+        "subheader": "Update your flow settings and template."
+      },
+      "create": {
+        "header": "Create New Flow",
+        "subheader": "Create a new email flow with customizable templates and variables."
+      },
+      "form": {
+        "loading": "Loading...",
+        "account_email": {
+          "label": "Account Email",
+          "required": "Account email is required"
+        },
+        "name": {
+          "label": "Name",
+          "required": "Name is required",
+          "too_long": "Name is too long"
+        },
+        "email_template": {
+          "label": "Email Template",
+          "required": "Email template is required",
+          "unknown_variables": "Email template contains unknown variables",
+          "available_variables": "Available Variables",
+          "press_tab_or_enter_to_insert": "Press Tab or Enter to insert",
+          "hint": "Start typing @ to see available variables. Use arrow keys to navigate, Tab/Enter to insert."
+        },
+        "pkd_codes": {
+          "label": "PKD Codes",
+          "placeholder": "Select PKD numbers",
+          "search_placeholder": "Search PKD numbers",
+          "hint": "Select the PKD numbers that match your target companies business activities.",
+          "loading": "Loading...",
+          "required": "At least one PKD number is required"
+        },
+        "is_active": {
+          "label": "Is Active",
+          "required": "Is active is required"
+        },
+        "submit": "Save",
+        "pending": "Saving...",
+        "cancel": "Cancel"
+      },
+      "errors": {
+        "create_flow": "Failed to create flow",
+        "update_flow": "Failed to update flow"
+      }
+    },
+    "login": {
+      "or": "Or",
+      "fields": {
+        "password": {
+          "label": "Password",
+          "validation": {
+            "minLength": "Must be more than {minLength} characters",
+            "uppercase": "Must contain at least one uppercase letter",
+            "lowercase": "Must contain at least one lowercase letter",
+            "number": "Must contain at least one number",
+            "special_character": "Must contain at least one special character"
+          }
+        },
+        "email": {
+          "label": "Email",
+          "validation": {
+            "email": "Invalid email address"
+          }
+        }
+      },
+      "buttons": {
+        "signin": "Sign In",
+        "signup": "Sign Up"
+      },
+      "messages": {
+        "signup": {
+          "success": "Check your email for verification"
+        },
+        "errors": {
+          "general": "Something went wrong. Please try again later.",
+          "invalid_credentials": "Invalid credentials",
+          "email_not_verified": "Email not verified. Please check your email for verification."
+        }
+      }
+    }
+  },
+  "components": {
+    "header": {
+      "menu": {
+        "profile": "Profile",
+        "logout": "Logout"
+      }
+    },
+    "accountEmails": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "loading": "Loading...",
+      "connecting": "Connecting...",
+      "connect_email": "Connect new email",
+      "reconnecting": "Reconnecting...",
+      "reconnect": "Reconnect",
+      "failed_to_load": "Failed to load account emails",
+      "failed_to_connect": "Failed to connect account",
+      "failed_to_remove": "Failed to remove account",
+      "failed_to_toggle": "Failed to toggle account",
+      "failed_to_reconnect": "Failed to reconnect account",
+      "permission_denied": "You must grant permission to send emails on your behalf. Please try again and check all required permissions.",
+      "no_email_accounts_connected": "No email accounts connected yet",
+      "confirm_delete": "Are you sure you want to remove {email}? This action cannot be undone.",
+      "confirm_toggle_inactive": "Are you sure you want to deactivate {email}? All flows using this email will be deactivated.",
+      "tip": "💡 You can connect multiple Gmail accounts for sending emails. Each account can be used in different email flows.",
+      "select": {
+        "hint": "Select the email account to send from.",
+        "label": "Select Email Account",
+        "placeholder": "Select email account"
+      }
+    }
+  },
+  "errors": {
+    "general": "Something went wrong. Please try again later.",
+    "authentication_required": "Authentication required"
+  }
+}
